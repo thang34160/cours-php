@@ -8,7 +8,7 @@ echo ($name);
 $firstName = 'Thang';
 $lastName = 'TA TRUNG';
 echo ("Bonjour, je m'appelle " . $firstName . " " . $lastName) . PHP_EOL;
-echo ("Bonjour je m'appelle {$firstName} {$lastName}") . PHP_EOL;
+echo ("Bonjour je m'appelle $firstName $lastName") . PHP_EOL;
 
 // exo 1.3
 $a = 5;
@@ -48,5 +48,5 @@ $temperature = 25;
 var_dump($temperature);
 $temperature = "bonne";
 var_dump($temperature);
- 
+
 
