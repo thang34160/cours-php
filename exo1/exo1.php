@@ -43,10 +43,10 @@ $maVariable = "exemple";
 $class = "PHP";
 echo ($class);
 
-/* // exo 1.6
+// exo 1.6
 $temperature = 25;
 var_dump($temperature);
 $temperature = "bonne";
 var_dump($temperature);
- */
+ 
 
