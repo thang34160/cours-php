@@ -32,4 +32,11 @@ echo ($x >= 10) . PHP_EOL;
 echo ($x <= 9) . PHP_EOL;
 
 // exo 3.4
+$isAdmin = true;
+$isLoggedIn = false;
 
+if ($isAdmin == true && $isLoggedIn == false) {
+    echo ("c'est ok") . PHP_EOL;
+}elseif ($isAdmin == true || $isLoggedIn == false) {
+    echo ("c'est ok") . PHP_EOL;
+}
