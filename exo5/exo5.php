@@ -42,3 +42,48 @@ foreach ($personne as $index => $personne ) {
     echo "$index: $personne" . PHP_EOL;
 };
 
+// exo 5.6
+$i = 1;
+
+for ($i; $i <= 10; $i++) {
+    if ($i == 5) {
+        continue;
+    }
+    echo $i . PHP_EOL;
+}
+
+//exo 5.7
+$nombres = [1, 2, 3, 4, 5, 6];
+
+foreach($nombres as $num) {
+    if ($num % 2 == 0) {
+        echo $num . PHP_EOL;
+    }
+};
+
+// exo 5.8
+$i = 10;
+
+for ($i; $i > 0; $i-- ) {
+    echo $i . PHP_EOL;
+};
+
+// exo 5.9
+$i = $_GET[];
+$total = 1;
+
+while ($i > 0) {
+    $total *= $i;
+    $i--;
+}
+
+echo $total . PHP_EOL;
+
+
+
+
+
+
+
+
+
