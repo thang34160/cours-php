@@ -81,7 +81,16 @@ if (is_int($nombre)) {
     echo "Erreur: le nombre saisi n'est pas un entier" . PHP_EOL;
 };
 
+// exo 4.9
+$personne = [
+    "nom" => "Thang",
+    "age" => 44,
+    "ville" => "Montpellier"
+];
 
+if ($personne["ville"]) {
+    echo "la ville existe" . PHP_EOL;
+};
 
 
 
