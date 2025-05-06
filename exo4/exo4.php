@@ -73,7 +73,7 @@ if ($temperature > 0) {
 };
 
 // exo 4.8
-$nombre = $_GET["nombre"];
+$nombre = $_GET["nombre"] ?? null;
 
 if (is_int($nombre)) {
     echo "le nombre saisi est un entier" . PHP_EOL;

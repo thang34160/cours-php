@@ -69,7 +69,7 @@ for ($i; $i > 0; $i-- ) {
 };
 
 // exo 5.9
-$i = $_GET[];
+$i = $_GET[] ?? null;
 $total = 1;
 
 while ($i > 0) {
@@ -78,6 +78,9 @@ while ($i > 0) {
 }
 
 echo $total . PHP_EOL;
+
+// exo 5.10
+
 
 
 
